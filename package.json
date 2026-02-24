@@ -1,0 +1,23 @@
+{
+  "name": "sqli-assignment",
+  "version": "1.0.0",
+  "description": "SQLI Technical Assignment - Web Automation & API",
+  "main": "index.js",
+  "scripts": {
+    "ui:headed": "playwright test --headed --project=chromium --workers=1 --trace on",
+    "ui:headless": "playwright test --project=chromium",
+    "ui:debug": "playwright test --debug",
+    "gen:report": "allure serve allure-results",
+    "audit": "tsc --noEmit"
+  },
+  "author": "Shiwantha Lakmal",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.6.0",
+    "allure-commandline": "^2.27.0",
+    "allure-playwright": "^2.12.0",
+    "typescript": "^5.9.3"
+  }
+}
