@@ -1,10 +1,8 @@
 # SQLI Assignment — Test Automation
 
-End-to-end test automation assignment covering web automation and API testing, built with Playwright and TypeScript.
+End-to-end test automation covering web automation and API testing, built with Playwright and TypeScript.
 
 ---
-
-## Exercises
 
 ## Prerequisites
 
@@ -134,23 +132,10 @@ Google search automation uses:
 
 ## Test Results
 
-![Allure Report — all tests passing](./image.png)
+Allure Report — all tests passing
 
 ---
 
-## Dependencies
-
-
-| Package              | Purpose                                   |
-| -------------------- | ----------------------------------------- |
-| `@playwright/test`   | Test runner, browser automation, fixtures |
-| `allure-playwright`  | Allure reporter integration               |
-| `allure-commandline` | Serve Allure report locally               |
-| `@faker-js/faker`    | Fake user data generation                 |
-| `typescript`         | Type safety and path aliases              |
-
-
----
 
 ## Author
 
