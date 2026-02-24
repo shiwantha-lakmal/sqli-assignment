@@ -132,6 +132,12 @@ Google search automation uses:
 
 ---
 
+## Test Results
+
+![Allure Report — all tests passing](./image.png)
+
+---
+
 ## Dependencies
 
 
